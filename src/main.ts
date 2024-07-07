@@ -1,4 +1,3 @@
-import 'zone.js/dist/zone';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
 import { Component, ElementRef, ViewChild } from '@angular/core';
@@ -14,6 +13,7 @@ import {
   switchMap,
   tap,
 } from 'rxjs';
+import 'zone.js';
 
 // another example: https://m-thompson-code.github.io/rxjs-maps/
 
